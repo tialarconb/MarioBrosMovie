@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Crossroads Slideshow | Codrops</title>
+		<meta name="description" content="An experimental slideshow with an inclined look with three slide previews and a content view on click." />
+		<meta name="keywords" content="slideshow, javascript, tweenmax, rotation, animation, css" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+	</head>
+	<body class="loading">
+		<main>
+			<div class="content">
+				<article class="content__item">
+					<div class="img-wrap img-wrap--content">
+						<div class="img img--content" style="background-image: url(img/1.jpg);"></div>
+					</div>
+					<header class="content__item-header">
+						<span class="content__item-header-meta">He is so cool!</span>
+						<h2 class="content__item-header-title">Chris Pratt</h2>
+					</header>
+					<div class="content__item-copy">
+						<p class="content__item-copy-text">
+Mario we would talking a lot in the movie.						</p>
+						<a href="#" class="content__item-copy-more">more +</a>
+					</div>
+				</article>
+				<article class="content__item">
+					<div class="img-wrap img-wrap--content">
+						<div class="img img--content" style="background-image: url(img/2.jpg);"></div>
+					</div>
+					<header class="content__item-header">
+						<span class="content__item-header-meta">Desde Argentina</span>
+						<h2 class="content__item-header-title">Anya Taylor Joy</h2>
+					</header>
+					<div class="content__item-copy">
+						<p class="content__item-copy-text">
+						Las empanadas
+						</p>
+						<a href="#" class="content__item-copy-more">Te amo Anya </a>
+					</div>
+				</article>
+				<article class="content__item">
+					<div class="img-wrap img-wrap--content">
+						<div class="img img--content" style="background-image: url(img/3.jpg);"></div>
+					</div>
+					<header class="content__item-header">
+						<span class="content__item-header-meta">From Tenacious D</span>
+						<h2 class="content__item-header-title">Jack Black</h2>
+					</header>
+					<div class="content__item-copy">
+						<p class="content__item-copy-text">
+							Yes, you are stuck, so out of luck
+							Now I'm complete and my jock you will pluck
+							This world will be mine and you're first in line
+							You brought me the pick and now you shall both die!
+							Wait! Wait! Wait!
+							You mothertrucker
+							We challenge you to a rock-off!
+							Give us one chance to rock your socks off
+							Dang! Drat!
+							Fudge, the demon code prevents me
+							From declining a rock-off challenge
+							What are your terms? What's the catch?
+						</p>
+						<a href="#" class="content__item-copy-more">And his friend Kyle! +</a>
+					</div>
+				</article>
+				<article class="content__item">
+					<div class="img-wrap img-wrap--content">
+						<div class="img img--content" style="background-image: url(img/4.jpg);"></div>
+					</div>
+					<header class="content__item-header">
+						<span class="content__item-header-meta">Someone has weed?</span>
+						<h2 class="content__item-header-title">Seth Rogen</h2>
+					</header>
+					<div class="content__item-copy">
+						<p class="content__item-copy-text">
+						Introduce the laugh of Seth Rogen as Donkey Kong!
+						</p>
+						<a href="#" class="content__item-copy-more">Nintendo en drogas...</a>
+					</div>
+				</article>
+			</div>
+			<div class="revealer">
+				<div class="revealer__inner"></div>
+			</div>
+			<div class="grid grid--slideshow">
+				<figure class="grid__item grid__item--slide">
+					<span class="number">Mario?</span>
+					<div class="img-wrap">
+						<div class="img" style="background-image: url(img/1.jpg);"></div>
+					</div>
+					<figcaption class="caption">He is so cool!</figcaption>
+				</figure>
+				<figure class="grid__item grid__item--slide">
+					<span class="number">Princess Peach</span>
+					<div class="img-wrap">
+						<div class="img" style="background-image: url(img/2.jpg);"></div>
+					</div>
+					<figcaption class="caption">Las empanadas</figcaption>
+				</figure>
+				<figure class="grid__item grid__item--slide">
+					<span class="number">Bowser</span>
+					<div class="img-wrap">
+						<div class="img" style="background-image: url(img/3.jpg);"></div>
+					</div>
+					<figcaption class="caption">JABLINSKIGAMES</figcaption>
+				</figure>
+				<figure class="grid__item grid__item--slide">
+					<span class="number">Donkey Kong</span>
+					<div class="img-wrap">
+						<div class="img" style="background-image: url(img/4.jpg);"></div>
+					</div>
+					<figcaption class="caption">Son las 4 de la mañana y me he quedado raja</figcaption>
+				</figure>
+				<div class="titles-wrap">
+					<div class="grid grid--titles">
+						<h3 class="grid__item grid__item--title">wtf</h3>
+						<h3 class="grid__item grid__item--title">Queen</h3>
+						<h3 class="grid__item grid__item--title">Po</h3>
+						<h3 class="grid__item grid__item--title">Weed</h3>
+					</div>
+				</div>
+				<div class="grid grid--interaction">
+					<div class="grid__item grid__item--cursor grid__item--left"></div>
+					<div class="grid__item grid__item--cursor grid__item--center"></div>
+					<div class="grid__item grid__item--cursor grid__item--right"></div>
+				</div>
+			</div>
+			<div class="frame">
+				<div class="frame__title-wrap">
+					<h1 class="frame__title">Crossroads Slideshow</h1>
+					<div class="frame__links">
+						<a href="https://tympanus.net/Development/ExplodingObjects/">Previous Demo</a>
+						<a href="https://tympanus.net/codrops/?p=39863">Article</a>
+						<a href="https://github.com/codrops/CrossroadsSlideshow/">GitHub</a>
+					</div>
+					<div class="frame__mode" role="radiogroup">
+						<div class="frame__mode-item frame__mode-item--dark">
+							<input id="mode-1" type="radio" name="mode" class="frame__mode-input"></input>
+							<label class="frame__mode-label" for="mode-1">Dark mode</label>
+						</div>
+						<div class="frame__mode-item">
+							<input id="mode-2" type="radio" name="mode" class="frame__mode-input" checked></input>
+							<label class="frame__mode-label frame__mode-label--light" for="mode-2">Light mode</label>
+						</div>
+					</div>
+				</div>
+			</div><!-- /frame -->
+		</main>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/charming.min.js"></script>
+		<script src="js/TweenMax.min.js"></script>
+		<script src="js/demo.js"></script>
+	</body>
+</html>
